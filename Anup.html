@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anup's personal portfolio page with skills, projects, and technical explanations.">
+    <meta name="keywords" content="Anup, Portfolio, Bootloop, LAN, Closed Source Software, Web Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anup's Portfolio</title>
+    <link rel="stylesheet" href="anup.css">
+</head>
+<body>
+    <header>
+        
+        
+    <nav>
+        <h1>Anup's Portfolio</h1>
+        <ul>
+                <li><a href="phots.html">Gallery</a></li>
+                <li><a href="safal 2 .html">Safal</a></li>
+                <li><a href="Anup.html">Anup</a></li>
+                <li><a href="index.html">Home</a></li>
+            
+            </ul>
+    </nav>
+    <div class="intro">
+        <img src="image-section/anup.jpg" alt="Anup's Photo" class="profile-photo">
+        <p>Passionate tech learner & aspiring web developer.</p>
+        
+        <a href="mailto:donk92212@gmail.com" class="cta">📧 Contact Me</a>
+    </div>
+    
+
+    </header>
+    <section class="skills">
+        <h2>Skills & Technologies Learned</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Photoshop</li>
+            <li>LAN Setup & Networking</li>
+            <li>Hardware Troubleshooting</li>
+            <li>Basic Programming</li>
+        </ul>
+    </section>
+    <section class="topics">
+        <h2>Technical Explanations</h2>
+        <div class="topic">
+            <h3>1. What is Bootloop?</h3>
+            <p>A bootloop occurs when a device is unable to complete its startup process and continuously restarts. 
+            <strong>Common causes</strong> <br>include corrupted system files, failed software updates, or incompatible apps.</p>
+           <img src="image-section/Restarting.png" height="300px" width="450px"alt=" bootloop ">
+            <p><strong>Solutions:</strong></p>
+            <ul>
+                <li>Restart in safe mode</li>
+                <li>Clear cache/data</li>
+                <li>Factory reset</li>
+                <li>Reinstall OS</li>
+            </ul>
+        </div>
+        <div class="topic">
+            <h3>2. What is a Local Area Network (LAN)?</h3>
+            <p>A LAN is a network that connects computers within a limited area such as a home, school, or office.</p>
+            <img src="image-section/LAN.png"  height="300px" width="550px" alt="LAN Diagram" class="diagram">
+            <p><strong>Setup Steps:</strong> Connect devices → Router/Switch → Configure IP settings → Test connection.</p>
+        </div>
+        <div class="topic">
+            <h3>3. What is Closed Source Software?</h3>
+            <p>Closed source software has proprietary code not shared publicly, meaning users cannot modify or redistribute it.</p>
+            <img src="image-section/Closed Source.png" height="300px" width="500px" alt="Closed Source">
+            <p>Examples of open-source alternatives:</p>
+            <ul>
+                <li>GIMP - <a href="https://www.gimp.org/downloads/">Download</a></li>
+                <li>LibreOffice - <a href="https://www.libreoffice.org/download/download/">Download</a></li>
+                <li>VLC Media Player - <a href="https://www.videolan.org/vlc/">Download</a></li>
+                <li>Audacity - <a href="https://www.audacityteam.org/download/">Download</a></li>
+                <li>Blender - <a href="https://www.blender.org/download/">Download</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Sample Works</h2>
+         <h1>Button Click Counter</h1>
+    <p>You have clicked the button <span id="count">0</span> times.</p>
+    <button onclick="increaseCount()">Click Me!</button>
+    <script>
+        let count = 0;
+
+        function increaseCount() {
+            count++;
+            document.getElementById("count").innerText = count;
+        }
+    </script>
+    </section>
+    <section class="reflection">
+        <h2>Learning Experience</h2>
+        <p>This course helped me improve my technical knowledge, especially in web development, networking, and troubleshooting. I also learned how to manage projects more effectively.</p>
+    </section>
+     <footer>
+    <p>
+        📧 <a href="mailto:thevolleyballspiker352@gmail.com">thevolleyballspiker352@gmail.com</a>
+     
+        📍Degunsha, Ramechhap, Bagmati, Nepal | 
+        <a href="tel:+9779840379083">📞 Call now</a>
+    </p>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.4679212923797!2d86.33477282451993!3d27.66936568387375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e96300542c430d%3A0xd18647c3be9c828f!2sDegunsha%2CRamechhap!5e1!3m2!1sen!2snp!4v1754931932276!5m2!1sen!2snp" 
+            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/Anoopbikram17890" target="_blank">Facebook</a> | 
+        <a href="https://www.instagram.com/yours__anupeyyy/" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2025 Anup's Portfolio</p>
+</footer>
+</body>
+</html>

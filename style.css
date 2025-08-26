@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ddd;
+}
+.hero-content {
+    max-width: 50%;
+}
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.cta-btn:hover {
+    background-color: #333;
+}
+.hero-image img {
+    max-width: 100%;
+    border: 3px solid white;
+}
+
+.about {
+    padding: 2rem;
+    background-color: white;
+}
+
+
+.testimonial {
+    background-color: #eee;
+    padding: 2rem;
+    font-style: italic;
+}
+
+
+.map {
+    padding: 2rem;
+}
+
+
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+}
+.social-icons a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
